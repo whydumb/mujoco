@@ -20,6 +20,11 @@ in robotics, biomechanics, graphics and animation, machine learning, and other
 areas which demand fast and accurate simulation of articulated structures
 interacting with their environment.
 
+
+MuJoCo가 자연스러운 동작을 생성하는 이유
+제공된 코드는 주로 모델 파싱/구성 부분이지만, 여기서 자연스러운 동작의 기반을 확인할 수 있습니다. 실제 물리 시뮬레이션은 engine/ 디렉토리에서 수행됩니다.
+1. 정교한 접촉 모델링 (Contact Dynamics)
+
 This repository is maintained by [Google DeepMind](https://www.deepmind.com/).
 
 MuJoCo has a C API and is intended for researchers and developers. The runtime
